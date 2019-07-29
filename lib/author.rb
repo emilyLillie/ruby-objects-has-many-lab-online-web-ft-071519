@@ -8,9 +8,10 @@ def intialize(name)
 end
   
 def add_post(post) 
-  post.author = self
+ 
   @@posts << post 
   @@count += 1 
+  post.author = self
 end
   
 end
