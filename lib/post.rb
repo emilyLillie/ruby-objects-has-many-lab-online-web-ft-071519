@@ -12,6 +12,11 @@ class Post
   end 
   
   def author_name
-    if 
+    if @author 
+      self.artist.name
+    else
+      nil 
+    end
+  end
   
 end
