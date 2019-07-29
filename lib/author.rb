@@ -14,6 +14,8 @@ def add_post(post)
 end
 
 def add_post_by_title(title)
+  @@count +=1 
+  
   
   
 end
