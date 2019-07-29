@@ -8,20 +8,20 @@ def intialize(name)
 end
   
 def add_post(post) 
-  @@count += 1
-  @@posts << post 
+  @count += 1
+  @posts << post 
   post.author = self
 end
 
 def add_post_by_title(title)
-  @@count +=1 
+  @count +=1 
   post = Post.new(title)
-  @@posts << title 
+  @posts << title 
   post.author = self 
 end
 
 def self.post_count
-  @@count
+  @count
 end
 
 end 
