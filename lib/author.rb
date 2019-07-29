@@ -1,10 +1,10 @@
 class Author 
 attr_accessor :name, :post  
-@@count = 1 
+@count = 1 
 
 def intialize(name)
   @name = name 
-  @@posts = [] 
+  @posts = [] 
 end
   
 def add_post(post) 
