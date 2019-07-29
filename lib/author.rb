@@ -6,5 +6,8 @@ def intialize(name)
   @name = name 
 end
   
+def add_post 
+
+end
   
 end
