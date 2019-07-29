@@ -53,10 +53,6 @@ class Author
     post.author = self
   end
 
-# def count
-#   @posts.count
-# end
-
  def self.post_count
   @@count
 end
